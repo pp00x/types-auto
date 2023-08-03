@@ -1,0 +1,29 @@
+{
+    "name": "types-auto",
+    "version": "1.0.0",
+    "description": "Automatically install @types for dependencies",
+    "main": "dist/main.js",
+    "scripts": {
+        "dev": "ts-node src/main.ts",
+        "build": "tsc"
+    },
+    "keywords": [
+        "typescript",
+        "types",
+        "auto-install"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pp00x/types-auto.git"
+    },
+    "author": "pp00x",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/pp00x/types-auto/issues"
+    },
+    "homepage": "https://github.com/pp00x/types-auto",
+    "devDependencies": {
+        "ts-node": "^10.9.1",
+        "typescript": "^5.1.6"
+    }
+}
